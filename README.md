@@ -1,2 +1,20 @@
-# steps2fit
-Garmin Connect IQ datafiled for counting steps during activities
+# Steps to FIT
+## Garmin Connect IQ datafiled for counting steps during activities
+
+Please visit the [Garmin Connect IQ](https://apps.garmin.com/en-US/apps/eb7018d6-3a13-4530-92ec-ed51d1f56e07#0) application store to download the datafield. 
+
+### Description
+This datafield shows the number of steps taken during an activity. It only records steps when the timer is running. At the end of the session the step data are written into the FIT file for the entire session (total number of steps) and also for the individual laps (number of steps per each lap) so that you can check it in the activity summary on the Garmin Connect website or in the Garmin Connect application.
+
+For some devices (e.g., Fenix 3 and Fenix 3 HR) the steps data may not appear on the Garmin Connect website and in the application. This is a known bug of the Garmin Connect ecosystem, and hopefully it will be fixed soon. 
+
+### What’s New
+v1.2.2 Support new devices. (MARQ series, Vivoactive 3 Music LTE, Vivoactive 3 Mercedes-Benz Collection)
+
+v1.2.1 Support multisport activities.
+
+v1.2.0 Fixed a bug causing reset of the step counter after resuming an activity which has been stopped for "resume later". Added support for Connect IQ SDK 3.
+
+v1.1.0 Added support for new devices.
+
+v1.0.3 Bug fix. (wrong units, missing label for some translations)
