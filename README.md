@@ -9,6 +9,8 @@ This datafield shows the number of steps taken during an activity. It only recor
 For some devices (e.g., Fenix 3 and Fenix 3 HR) the steps data may not appear on the Garmin Connect website and in the application. This is a known bug of the Garmin Connect ecosystem, and hopefully it will be fixed soon. 
 
 ### What’s New
+v1.2.3 Support new devices. (Forerunner 245, Forerunner 245 Music, Forerunner 945)
+
 v1.2.2 Support new devices. (MARQ series, Vivoactive 3 Music LTE, Vivoactive 3 Mercedes-Benz Collection)
 
 v1.2.1 Support multisport activities.
