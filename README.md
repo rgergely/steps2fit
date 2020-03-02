@@ -9,6 +9,10 @@ This datafield shows the number of steps taken during an activity. It only recor
 For some devices (e.g., Fenix 3 and Fenix 3 HR) the steps data may not appear on the Garmin Connect website and in the application. This is a known bug of the Garmin Connect ecosystem, and hopefully it will be fixed soon. 
 
 ### What’s New
+v1.2.7 Support new devices. (Legacy Hero Series, Approach S62, MARQ Adventurer, MARQ Commander)
+
+v1.2.6 Fixed bug on Fenix 6 series (Install the latest firmware update, before updating the datafield!)
+
 v1.2.5 Support new devices. (Fenix 6 series, Vivoactive 4, Venu)
 
 v1.2.4 Fixed Italian translation. 
