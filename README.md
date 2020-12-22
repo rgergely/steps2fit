@@ -1,7 +1,7 @@
 # Steps to FIT
 ## Garmin Connect IQ datafiled for counting steps during activities
 
-Please visit the [Garmin Connect IQ](https://apps.garmin.com/en-US/apps/eb7018d6-3a13-4530-92ec-ed51d1f56e07#0) application store to download the datafield. 
+Please visit the [Garmin Connect IQ](https://apps.garmin.com/en-US/apps/eb7018d6-3a13-4530-92ec-ed51d1f56e07) application store to download the datafield. 
 
 ### Description
 This datafield shows the number of steps taken during an activity. It only records steps when the timer is running. At the end of the session the step data are written into the FIT file for the entire session (total number of steps) and also for the individual laps (number of steps per each lap) so that you can check it in the activity summary on the Garmin Connect website or in the Garmin Connect application.
