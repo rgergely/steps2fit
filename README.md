@@ -9,6 +9,11 @@ This datafield shows the number of steps taken during an activity. It only recor
 For some devices (e.g., Fenix 3 and Fenix 3 HR) the steps data may not appear on the Garmin Connect website and in the application. This is a known bug of the Garmin Connect ecosystem, and hopefully it will be fixed soon. 
 
 ### What’s New
+
+v1.2.9 Support new devices. (Descent Mk2 S, Enduro, Forerunner 55, Forerunner 945 LTE, Venu 2, Venu 2S)
+
+v1.2.8 Support new devices. (Venu SQ, Forerunner 745, Descent Mk2, MARQ Golfer, D2 Air, Venu Mercedes-Benz Collection)
+
 v1.2.7 Support new devices. (Legacy Hero Series, Approach S62, MARQ Adventurer, MARQ Commander)
 
 v1.2.6 Fixed bug on Fenix 6 series (Install the latest firmware update, before updating the datafield!)
