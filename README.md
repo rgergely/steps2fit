@@ -10,6 +10,8 @@ For some devices (e.g., Fenix 3 and Fenix 3 HR) the steps data may not appear on
 
 ### What’s New
 
+v1.2.12 Support new devices. (Forerunner 955 series, Forerunner 255 series, Venu Sq 2 series)
+
 v1.2.11 Support new devices. (D2 Air X10, D2 Mach 1, Descent G1, Epix 2, Fenix 7 series, Instinct 2 series, Venu 2 Plus)
 
 v1.2.9 Support new devices. (Descent Mk2 S, Enduro, Forerunner 55, Forerunner 945 LTE, Venu 2, Venu 2S)
