@@ -2,8 +2,8 @@ using Toybox.WatchUi as Ui;
 
 class Steps2FitView extends Ui.SimpleDataField 
 {
-	// member variables
-	hidden var fitContributor = null;
+    // member variables
+    hidden var fitContributor = null;
 
     // Set the label of the data field here.
     function initialize() {
@@ -12,7 +12,7 @@ class Steps2FitView extends Ui.SimpleDataField
         label = Ui.loadResource( Rez.Strings.label );
     }
 
-	function onStart(app, state) {
+    function onStart(app, state) {
         fitContributor.onStart(app);
     }
 
@@ -26,30 +26,30 @@ class Steps2FitView extends Ui.SimpleDataField
     }
     
     function onTimerStart() {
-    	fitContributor.onActivityStart();
+        fitContributor.onActivityStart();
     }
     
     function onTimerStop() {
-    	fitContributor.onActivityStop();
+        fitContributor.onActivityStop();
     }
     
     function onTimerResume() {
-    	fitContributor.onActivityStart();
+        fitContributor.onActivityStart();
     }
     
     function onTimerPause() {
-    	fitContributor.onActivityStop();
+        fitContributor.onActivityStop();
     }
     
     function onTimerLap() {
-    	fitContributor.onTimerLap();
+        fitContributor.onTimerLap();
     }
-	
-	function onTimerReset() {
-    	fitContributor.onTimerReset();
+    
+    function onTimerReset() {
+        fitContributor.onTimerReset();
     }
     
     function onNextMultisportLeg() {
-    	fitContributor.onTimerReset();
+        fitContributor.onTimerReset();
     }
 }

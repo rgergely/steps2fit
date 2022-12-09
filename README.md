@@ -10,7 +10,7 @@ For some devices (e.g., Fenix 3 and Fenix 3 HR) the steps data may not appear on
 
 ### What’s New
 
-v1.2.13 Support new devices. (Instinct Crossover, MARQ (Gen 2) series)
+v1.2.14 Support new devices. (Instinct Crossover, MARQ (Gen 2) series)
 
 v1.2.12 Support new devices. (Forerunner 955 series, Forerunner 255 series, Venu Sq 2 series)
 
