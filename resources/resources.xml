@@ -17,4 +17,9 @@
         dataLabel="@Strings.label"
         unitLabel="@Strings.units" />
     </fitContributions>
+
+    <properties>
+        <property id="steps_session" type="number">0</property>
+        <property id="steps_lap" type="number">0</property>
+    </properties>
 </resources>

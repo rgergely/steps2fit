@@ -41,13 +41,8 @@ class FitContributor
         
         // if the activity has restarted after "resume later", load previously stored steps values
         if (info != null && info.elapsedTime > 0) {
-            if (Application has :Properties) {
-                mStepsSession = Application.Properties.getValue(STEPS_SESSION_FIELD_ID);
-                mStepsLap = Application.Properties.getValue(STEPS_LAP_FIELD_ID);
-            } else {
-                mStepsSession = app.getProperty(STEPS_SESSION_FIELD_ID);
-                mStepsLap = app.getProperty(STEPS_LAP_FIELD_ID);
-            }
+            mStepsSession = $.loadProperty("steps_session");
+            mStepsLap = $.loadProperty("steps_lap");
             if (mStepsSession == null) {
                 mStepsSession = 0;
             }
@@ -59,13 +54,8 @@ class FitContributor
 
     function onStop(app) {
         // store current values of steps on stop for later usage (e.g., resume later)
-        if (Application has :Properties) {
-            Application.Properties.setValue(STEPS_SESSION_FIELD_ID, mStepsSession);
-            Application.Properties.setValue(STEPS_LAP_FIELD_ID, mStepsLap);
-        } else {
-            app.setProperty(STEPS_SESSION_FIELD_ID, mStepsSession);
-            app.setProperty(STEPS_LAP_FIELD_ID, mStepsLap);
-        }
+        $.storeProperty("steps_session", mStepsSession);
+        $.storeProperty("steps_lap", mStepsLap);
     }
     
     function compute() {
