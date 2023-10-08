@@ -10,6 +10,12 @@ For some devices (e.g., Fenix 3 and Fenix 3 HR) the steps data may not appear on
 
 ### What’s New
 
+v1.3.3 Support new devices. (Venu 3 series, Vivoactive 5)
+
+v1.3.2 Support new devices. (Fenix 7 Pro series, Epix Pro series, Instinct 2X, Approach S70 series)
+
+v1.3.1 Support new devices. (Forerunner 265 series, Forerunner 965)
+
 v1.3.0 Bug fix (cannot save state on activity stop and resume later). Make title upper case. 
 
 v1.2.14 Support new devices. (Instinct Crossover, MARQ (Gen 2) series)

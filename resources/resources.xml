@@ -6,7 +6,7 @@
         displayInActivitySummary="true"
         sortOrder="0"
         precision="0"
-        dataLabel="@Strings.label"
+        dataLabel="@Strings.connect_label"
         unitLabel="@Strings.units" />
         <fitField id="1"
         displayInChart="false"
@@ -14,7 +14,7 @@
         displayInActivitySummary="false"
         sortOrder="1"
         precision="0"
-        dataLabel="@Strings.label"
+        dataLabel="@Strings.connect_label"
         unitLabel="@Strings.units" />
     </fitContributions>
 
