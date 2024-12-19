@@ -10,6 +10,8 @@ For some devices (e.g., Fenix 3 and Fenix 3 HR) the steps data may not appear on
 
 ### What’s New
 
+v1.3.4 Support new devices. (Descent Mk3 series, Enduro 3, Fenix E, Fenix 8 series, Forerunner 165 series)
+
 v1.3.3 Support new devices. (Venu 3 series, Vivoactive 5)
 
 v1.3.2 Support new devices. (Fenix 7 Pro series, Epix Pro series, Instinct 2X, Approach S70 series)
